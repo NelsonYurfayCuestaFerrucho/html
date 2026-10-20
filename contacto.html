@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Fashion Style</title>
+</head>
+<body>
+
+    <header>
+        <h1>Fashion Style</h1>
+        <p>Viste como eres, luce como sueñas.</p>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="colecciones.html">Colecciones</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="reportes.html">Reportes</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section>
+            <h2>Comunícate con nosotros</h2>
+
+            <p>
+                Bienvenido a Fashion Style. Estamos disponibles
+                para resolver tus dudas sobre nuestros productos,
+                precios, pedidos y colecciones.
+            </p>
+
+            <p>
+                Completa el siguiente formulario y cuéntanos
+                cómo podemos ayudarte.
+            </p>
+        </section>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <form action="#" method="post">
+
+                <label for="nombre">Nombre completo:</label>
+                <br>
+                <input type="text" id="nombre" name="nombre"placeholder="Escribe tu nombre" required>
+                <br><br>
+
+                <label for="correo">Correo electrónico:</label>
+                <br>
+                <input type="email" id="correo" name="correo"placeholder="ejemplo@correo.com" required>
+                <br><br>
+
+                <label for="telefono">Número de teléfono:</label>
+                <br>
+                <input type="tel" id="telefono" name="telefono"placeholder="Escribe tu teléfono">
+                <br><br>
+
+                <label for="asunto">Motivo del contacto:</label>
+                <br>
+                <select id="asunto" name="asunto">
+                    <option value="">Selecciona una opción</option>
+                    <option value="productos">Información de productos</option>
+                    <option value="precios">Consulta de precios</option>
+                    <option value="pedidos">Estado de mi pedido</option>
+                    <option value="devoluciones">Cambios y devoluciones</option>
+                    <option value="otro">Otro motivo</option>
+                </select>
+                <br><br>
+
+                <label for="mensaje">Escribe tu mensaje:</label>
+                <br>
+                <textarea id="mensaje" name="mensaje"rows="5" cols="40"placeholder="Escribe aquí tu consulta..."required></textarea>
+                <br><br>
+
+                <button type="submit">Enviar mensaje</button>
+                <button type="reset">Limpiar formulario</button>
+
+            </form>
+        </section>
+
+
+</body>
+</html>
